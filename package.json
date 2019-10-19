@@ -27,8 +27,7 @@
     "migrations": "./build/migrations.json"
   },
   "scripts": {
-    "build": "scripts/build.sh",
-    "install": "npm run build"
+    "build": "scripts/build.sh"
   },
   "files": [
     "build"
