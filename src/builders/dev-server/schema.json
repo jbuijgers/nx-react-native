@@ -1,0 +1,6 @@
+{
+  "title": "Metro Server",
+  "description": "Starts the Metro server",
+  "type": "object",
+  "properties": {}
+}

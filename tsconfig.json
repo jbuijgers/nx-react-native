@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "build",
+    "typeRoots": ["node_modules/@types"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "lib": ["es2017"],
+    "declaration": true,
+    "baseUrl": ".",
+    "rootDir": "src"
+  },
+  "exclude": ["build", "src/**/files/**/*"]
+}

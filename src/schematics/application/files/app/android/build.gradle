@@ -1,0 +1,31 @@
+buildDir = file("$rootDir/<%= offsetFromRoot %>../dist/apps/$project.name").getCanonicalPath();
+
+buildscript {
+    ext {
+        buildToolsVersion = "28.0.3"
+        minSdkVersion = 16
+        compileSdkVersion = 28
+        targetSdkVersion = 28
+
+        workspaceDir = file("$rootDir/<%= offsetFromRoot %>..").getCanonicalPath();
+        nodeModules = "$workspaceDir/node_modules"
+    }
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:3.4.2")
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        maven { url("$nodeModules/react-native/android") }
+        maven { url("$nodeModules/jsc-android/dist") }
+        google()
+        jcenter()
+        maven { url("https://jitpack.io") }
+    }
+}

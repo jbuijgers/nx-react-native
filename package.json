@@ -1,0 +1,50 @@
+{
+  "name": "@jb/nx-react-native",
+  "version": "0.1.0",
+  "description": "React Native Plugin for Nx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbuijgers/nx-react-native.git"
+  },
+  "keywords": [
+    "Monorepo",
+    "React Native",
+    "Cross Platform",
+    "Jest",
+    "CLI"
+  ],
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "author": "Joost Buijgers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbuijgers/nx-react-native/issues"
+  },
+  "schematics": "./build/collection.json",
+  "builders": "./build/builders.json",
+  "ng-update": {
+    "requirements": {},
+    "migrations": "./build/migrations.json"
+  },
+  "scripts": {
+    "build": "scripts/build.sh"
+  },
+  "peerDependencies": {
+    "@nrwl/workspace": "^8.6.0",
+    "typescript": "~3.4.5"
+  },
+  "dependencies": {
+    "@angular-devkit/schematics": "8.3.3",
+    "@angular-devkit/architect": "^0.803.10",
+    "@nrwl/workspace": "^8.6.0",
+    "@react-native-community/cli": "3.0.0-alpha.7",
+    "typescript": "~3.4.5"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    
+    "@types/node": "^12.11.1"
+  }
+}

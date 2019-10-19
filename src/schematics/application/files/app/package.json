@@ -1,0 +1,6 @@
+{
+  "name": "<%= name %>",
+  "dependencies": {
+    "react-native": "*"
+  }
+}

@@ -1,0 +1,11 @@
+export const nxVersion = '*';
+export const frameworkVersion = '0.61.2';
+export const typesVersion = '0.60.21';
+export const reactVersion = '16.9.0';
+export const reactTypesVersion = '16.9.0';
+export const babelCoreVersion = '7.6.3';
+export const babelRuntimeVersion = '7.6.3';
+export const babelModuleResolverVersion = '3.2.0';
+export const reactNativeCliVersion = '3.0.0-alpha.7';
+export const metroPresetVersion = '0.56.0';
+export const testingLibraryVersion = '4.0.14';

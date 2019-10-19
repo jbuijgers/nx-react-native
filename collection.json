@@ -1,0 +1,26 @@
+{
+  "name": "Nx React Native",
+  "version": "0.1",
+  "extends": [
+    "@nrwl/workspace"
+  ],
+  "schematics": {
+    "init": {
+      "factory": "./schematics/init/init",
+      "schema": "./schematics/init/schema.json",
+      "description": "Initialize the @jb/nx-react-native plugin",
+      "aliases": [
+        "ng-add"
+      ],
+      "hidden": true
+    },
+    "application": {
+      "factory": "./schematics/application/application",
+      "schema": "./schematics/application/schema.json",
+      "aliases": [
+        "app"
+      ],
+      "description": "Create an application"
+    }
+  }
+}

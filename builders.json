@@ -1,0 +1,15 @@
+{
+  "$schema": "@angular-devkit/architect/src/builders-schema.json",
+  "builders": {
+    "build": {
+      "implementation": "./builders/build/build.impl",
+      "schema": "./builders/build/schema.json",
+      "description": "Build the React Native app"
+    },
+    "dev-server": {
+      "implementation": "./builders/dev-server/dev-server.impl",
+      "schema": "./builders/dev-server/schema.json",
+      "description": "Serve a React Native app"
+    }
+  }
+}
