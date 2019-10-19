@@ -28,7 +28,7 @@
   },
   "scripts": {
     "build": "scripts/build.sh",
-    "prepare": "scripts/build.sh"
+    "install": "npm run build"
   },
   "files": [
     "build"
