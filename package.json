@@ -1,5 +1,5 @@
 {
-  "name": "@jb/nx-react-native",
+  "name": "nx-react-native",
   "version": "0.1.0",
   "description": "React Native Plugin for Nx",
   "repository": {
@@ -44,7 +44,6 @@
     "dist/**/*"
   ],
   "devDependencies": {
-    
     "@types/node": "^12.11.1"
   }
 }

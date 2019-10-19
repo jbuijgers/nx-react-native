@@ -8,7 +8,7 @@
     "init": {
       "factory": "./schematics/init/init",
       "schema": "./schematics/init/schema.json",
-      "description": "Initialize the @jb/nx-react-native plugin",
+      "description": "Initialize the nx-react-native plugin",
       "aliases": [
         "ng-add"
       ],

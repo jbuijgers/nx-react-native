@@ -71,13 +71,13 @@ function addProject(options: NormalizedSchema): Rule {
     const architect: { [key: string]: any } = {};
 
     architect.build = {
-      builder: '@jb/nx-react-native:build',
+      builder: 'nx-react-native:build',
       options: {},
       configurations: {}
     };
 
     architect.serve = {
-      builder: '@jb/nx-react-native:dev-server',
+      builder: 'nx-react-native:dev-server',
       options: {},
       configurations: {}
     };

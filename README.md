@@ -9,8 +9,8 @@ This library is still under heavy development.
 ## Create a React Native app
 
 ```bash
-yarn add --dev @jb/nx-react-native
-nx g @jb/nx-react-native:app myapp com.myapp
+yarn add --dev nx-react-native
+nx g nx-react-native:app myapp com.myapp
 ```
 
 ## Run the application

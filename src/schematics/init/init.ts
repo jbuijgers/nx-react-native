@@ -1,8 +1,5 @@
 import { chain, Rule } from '@angular-devkit/schematics';
-import {
-  addDepsToPackageJson,
-  updateJsonInTree
-} from '@nrwl/workspace';
+import { addDepsToPackageJson, updateJsonInTree } from '@nrwl/workspace';
 import { Schema } from './schema';
 import {
   frameworkVersion,
@@ -27,7 +24,7 @@ export function addDependencies(): Rule {
     {
       '@babel/core': babelCoreVersion,
       '@babel/runtime': babelRuntimeVersion,
-      // '@jb/nx-react-native': nxVersion,
+      'nx-react-native': nxVersion,
       '@types/react': reactTypesVersion,
       '@types/react-native': typesVersion,
       '@testing-library/react-native': testingLibraryVersion,
@@ -42,7 +39,7 @@ function moveDependency(): Rule {
   return updateJsonInTree('package.json', json => {
     json.dependencies = json.dependencies || {};
 
-    delete json.dependencies['@jb/nx-react-native'];
+    delete json.dependencies['nx-react-native'];
     return json;
   });
 }
