@@ -1,0 +1,6 @@
+{
+  "title": "React Native Build Target",
+  "description": "Builds the React Native app",
+  "type": "object",
+  "properties": {}
+}
