@@ -33,3 +33,10 @@ chmod a+x apps/myapp/android/gradlew
 nx serve myapp
 nx build myapp
 ```
+
+# Roadmap
+
+- Add tests
+- Add iOS support
+- Add linting to schematics
+- Add testing to schematics
