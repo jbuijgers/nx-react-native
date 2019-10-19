@@ -27,7 +27,8 @@
     "migrations": "./build/migrations.json"
   },
   "scripts": {
-    "build": "scripts/build.sh"
+    "build": "scripts/build.sh",
+    "prepare": "scripts/build.sh"
   },
   "files": [
     "build"
