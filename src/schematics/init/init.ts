@@ -24,7 +24,7 @@ export function addDependencies(): Rule {
     {
       '@babel/core': babelCoreVersion,
       '@babel/runtime': babelRuntimeVersion,
-      'nx-react-native': nxVersion,
+      '@jbuijgers/nx-react-native': nxVersion,
       '@types/react': reactTypesVersion,
       '@types/react-native': typesVersion,
       '@testing-library/react-native': testingLibraryVersion,
@@ -39,7 +39,7 @@ function moveDependency(): Rule {
   return updateJsonInTree('package.json', json => {
     json.dependencies = json.dependencies || {};
 
-    delete json.dependencies['nx-react-native'];
+    delete json.dependencies['@jbuijgers/nx-react-native'];
     return json;
   });
 }
