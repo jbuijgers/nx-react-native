@@ -1,5 +1,5 @@
 {
-  "name": "nx-react-native",
+  "name": "@jbuijgers/nx-react-native",
   "version": "0.1.0",
   "description": "React Native Plugin for Nx",
   "repository": {
