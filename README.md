@@ -6,6 +6,14 @@ This library is still under heavy development.
 
 # Getting Started
 
+## Install the latest React Native CLI
+
+This plugin will not work without it, due to how @react-native-community/cli is set up.
+
+```bash
+npm i -g @react-native-community/cli@next
+```
+
 ## Create a React Native app
 
 ```bash
