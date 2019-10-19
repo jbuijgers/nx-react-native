@@ -29,21 +29,19 @@
   "scripts": {
     "build": "scripts/build.sh"
   },
-  "peerDependencies": {
-    "@nrwl/workspace": "^8.6.0",
-    "typescript": "~3.4.5"
-  },
+  "files": [
+    "build"
+  ],
   "dependencies": {
     "@angular-devkit/schematics": "8.3.3",
     "@angular-devkit/architect": "^0.803.10",
-    "@nrwl/workspace": "^8.6.0",
-    "@react-native-community/cli": "3.0.0-alpha.7",
-    "typescript": "~3.4.5"
+    "@react-native-community/cli": "3.0.0-alpha.7"
   },
-  "files": [
-    "dist/**/*"
-  ],
   "devDependencies": {
     "@types/node": "^12.11.1"
+  },
+  "peerDependencies": {
+    "@nrwl/workspace": "^8.6.0",
+    "typescript": "~3.4.5"
   }
 }
