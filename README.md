@@ -1,4 +1,4 @@
-This library serves as an addition to [Nx](https://nrwl.io/nx) to allow generating React Native apps.
+This library serves as an addition to [Nx](https://nrwl.io/nx) and will allow generating React Native apps.
 
 ### Attention
 
@@ -11,6 +11,12 @@ This library is still under heavy development.
 ```bash
 yarn add --dev nx-react-native
 nx g nx-react-native:app myapp com.myapp
+```
+
+## Fix a temporary bug
+
+```bash
+chmod a+x apps/myapp/android/gradlew
 ```
 
 ## Run the application
